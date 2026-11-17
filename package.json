@@ -1,0 +1,28 @@
+{
+  "name": "interviewforge-ai",
+  "version": "1.0.0",
+  "description": "AI-Powered Adaptive Interview Preparation Platform (MEAN Stack)",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client start",
+    "client:build": "npm --prefix client run build",
+    "build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed"
+  },
+  "keywords": [
+    "mean-stack",
+    "angular",
+    "nodejs",
+    "express",
+    "mongodb",
+    "gemini-api",
+    "judge0",
+    "monaco-editor",
+    "adaptive-interview",
+    "ai-interview-coach"
+  ],
+  "author": "InterviewForge AI Team",
+  "license": "MIT"
+}
